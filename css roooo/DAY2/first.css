@@ -1,0 +1,26 @@
+.link{
+    text-decoration: sandybrown;
+}
+body{
+    background-color:rgb(224, 224, 233);
+}
+p{
+    border: 3px dashed goldenrod;
+    margin-left: 30px;
+    padding-right: 35px;
+}
+u{
+    color: darkred;
+}
+#para3{
+    margin: 20px;
+    padding-left: 10px;
+    padding-bottom: 34px;
+    letter-spacing: 23px;
+}
+a,p{
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    color: red;
+}
