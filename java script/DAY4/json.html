@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>java script object notation</h1>
+    <pre>
+        1.jason do not contain functions
+        2.jason create key value palindrome
+        3.jason stores everything in double quotes expect numbers and boolean values
+        4.API (Application program interface)
+    </pre>
+  <script>
+    let obj1={
+        firstname:"mohan",
+        lastname:"madan",
+        age:6,
+        email:"mohanana@gmail.com"
+    }
+    console.log("obj",obj1);
+    console.log("type of obj",typeof obj1);
+    let str1=JSON.stringify(obj1);
+    console.log("str1",str1);
+    console.log("type of str1",typeof str1);
+    let obj2=JSON.parse(str1);
+    console.log("obj2",obj2);
+    console.log("type of obj2",typeof obj2);
+  </script> 
+</body>
+</html>
